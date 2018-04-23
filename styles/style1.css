@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'iransans';
+	src: url(../fonts/IranianSans.eot) format('eot'),
+		url(../fonts/IranianSans.ttf) format('ttf'),
+		url(../fonts/IranianSans.woff) format('woff');
+}
+body{
+	direction: rtl;
+	
+}
+
+{
+	width: 970px;
+	height: 200px;
+	margin: auto;
+	background-image: url(../images/header-image.png);	
+}
+
+
+ 
+
+CSS
+
+nav ul {
+	background: #f1f4f7;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul {
+	background: #f1f4f7;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+nav ul {
+	background: #f1f4f7;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+header{
+	width: 970px;
+	height: 200px;
+	margin: auto;
+	background-image: url(../images/header-image.png);
+}
+
+
+header div{
+	background-color: #000000;
+	opacity: 0.8;
+	
+	
+}
+header h1{
+	color: #ffffff;
+	font-family: iransans;
+	padding: 10px 20px 0 0;
+}
+nav{
+	width: 970px;
+	margin: 10px auto 0;
+	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+	font-family: iransans;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.main{
+	direction: rtl;
+	width: 970px;
+	height: 420px;
+	margin: 5px auto 5px;
+
+}
+
+.content{
+	width: 710px;
+	float: left;
+}
+.sidebar{
+	
+	width: 250px;
+	height: 420px;
+	float: right;
+}
+.sidebar ul{
+	list-style-type: none;
+	padding-right: 10px;
+	color: #000000;
+}
+.sidebar ul li {
+	font-family: iransans;
+}
+
+.sidebar ul li a{
+	display: block;
+	text-decoration: none;
+	
+}
+.sidebar ul li a:hover{
+	background-color: #333;
+	color: white;
+}
+.content article p{
+	font-family: iransans;
+	text-indent: 15px;
+	
+}
+.content article img{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: auto;
+	
+}
+footer{
+	width: 970px;
+	height: 110px;
+	margin: 10px auto 10px;
+	clear: both;
+	background: linear-gradient(to top, #000000 3%, #000036 98%);
+}
+footer div p{
+	font-family: iransans;
+	color: aliceblue;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+footer ul li {
+	display: inline;
+}
+footer img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	padding: 6px 0 0 10px;
+
+}
+
+#to_top{
+	position: fixed;
+	right:-100px;;
+	bottom: 10px;
+	cursor: pointer;
+}
+
+@media screen and (max-width:768px)	{
+
+	header{
+		width: 100%;
+		background-image: url('../images/header-image - min.png');
+	}
+	header h1{
+		font-size: 25px;
+	}
+
+	nav{
+		width: 100%;
+	}
+	.main{
+		width: 100%;
+	}
+	
+	.content{
+		width: 100%;
+	}
+	.sidebar{
+	display: none;
+	}
+
+	footer{
+		width: 100%;
+	}
+
+
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul {
+	background: #f1f4f7;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li {
+	float: right;
+	position: relative;
+	font-weight: bold;
+}
+
+nav ul li:hover {
+	background: #a70101;
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+	display: block;
+	padding: 15px 32px;
+	color: #4e4e4e;
+	text-decoration: none;
+}
+
+nav ul ul {
+	background: #9c0000;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+}
+nav ul ul li {
+	float: none;
+	border-top: 1px solid #940000;
+	border-bottom: 1px solid #940000;
+	position: relative;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+nav ul ul li a:hover {
+	background: #112f44;
+}
+		
+nav ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}
+	
